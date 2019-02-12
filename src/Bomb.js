@@ -8,8 +8,7 @@ export default class Bomb extends React.Component {
 
   render() {
     return(
-      <div>{this.state.secondsLeft ? `${this.state.secondsLeft} seconds left before I go boom!` : "Boom!"}
-      </div>
+      <div>{this.state.secondsLeft ? `${this.state.secondsLeft} seconds left before I go boom!` : 'Boom!'}</div>
     )
   }
 }
